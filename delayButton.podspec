@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
     Runtime button that response touch Every 2 seconds.
   }
 
-  s.homepage     = "https://github.com/roycms/delayButton.git"
+  s.homepage     = "https://github.com/roycms/delayButton"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -91,7 +91,7 @@ s.license          = { :type => "MIT", :file => "LICENSE" }
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "delayControl/*"
+  s.source_files  = "delayControl/*.*"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
