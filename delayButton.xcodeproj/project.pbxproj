@@ -13,7 +13,7 @@
 		1FEBD71C1DF53E8400145547 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FEBD71A1DF53E8400145547 /* Main.storyboard */; };
 		1FEBD71E1DF53E8400145547 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FEBD71D1DF53E8400145547 /* Assets.xcassets */; };
 		1FEBD7211DF53E8400145547 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FEBD71F1DF53E8400145547 /* LaunchScreen.storyboard */; };
-		1FEBD72E1DF5437500145547 /* UIButton+Delay.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEBD72D1DF5437500145547 /* UIButton+Delay.m */; };
+		B005C98F1E304F4700E75180 /* UIButton+Delay.m in Sources */ = {isa = PBXBuildFile; fileRef = B005C98E1E304F4700E75180 /* UIButton+Delay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		1FEBD71D1DF53E8400145547 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FEBD7201DF53E8400145547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FEBD7221DF53E8400145547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FEBD72C1DF5437500145547 /* UIButton+Delay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Delay.h"; sourceTree = "<group>"; };
-		1FEBD72D1DF5437500145547 /* UIButton+Delay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Delay.m"; sourceTree = "<group>"; };
+		B005C98D1E304F4700E75180 /* UIButton+Delay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Delay.h"; sourceTree = "<group>"; };
+		B005C98E1E304F4700E75180 /* UIButton+Delay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Delay.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +45,7 @@
 		1FEBD7051DF53E8400145547 = {
 			isa = PBXGroup;
 			children = (
+				B005C98C1E304F4700E75180 /* delayControl */,
 				1FEBD7101DF53E8400145547 /* delayButton */,
 				1FEBD70F1DF53E8400145547 /* Products */,
 			);
@@ -66,7 +67,6 @@
 				1FEBD7171DF53E8400145547 /* ViewController.h */,
 				1FEBD7181DF53E8400145547 /* ViewController.m */,
 				1FEBD71A1DF53E8400145547 /* Main.storyboard */,
-				1FEBD7281DF53EC500145547 /* delayControl */,
 				1FEBD71D1DF53E8400145547 /* Assets.xcassets */,
 				1FEBD71F1DF53E8400145547 /* LaunchScreen.storyboard */,
 				1FEBD7221DF53E8400145547 /* Info.plist */,
@@ -83,13 +83,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1FEBD7281DF53EC500145547 /* delayControl */ = {
+		B005C98C1E304F4700E75180 /* delayControl */ = {
 			isa = PBXGroup;
 			children = (
-				1FEBD72C1DF5437500145547 /* UIButton+Delay.h */,
-				1FEBD72D1DF5437500145547 /* UIButton+Delay.m */,
+				B005C98D1E304F4700E75180 /* UIButton+Delay.h */,
+				B005C98E1E304F4700E75180 /* UIButton+Delay.m */,
 			);
-			name = delayControl;
+			path = delayControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,9 +164,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FEBD7191DF53E8400145547 /* ViewController.m in Sources */,
-				1FEBD72E1DF5437500145547 /* UIButton+Delay.m in Sources */,
 				1FEBD7161DF53E8400145547 /* AppDelegate.m in Sources */,
 				1FEBD7131DF53E8400145547 /* main.m in Sources */,
+				B005C98F1E304F4700E75180 /* UIButton+Delay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +321,7 @@
 				1FEBD7271DF53E8400145547 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
