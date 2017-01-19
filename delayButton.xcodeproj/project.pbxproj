@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FEBD7131DF53E8400145547 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEBD7121DF53E8400145547 /* main.m */; };
+		1FEBD7161DF53E8400145547 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEBD7151DF53E8400145547 /* AppDelegate.m */; };
+		1FEBD7191DF53E8400145547 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEBD7181DF53E8400145547 /* ViewController.m */; };
+		1FEBD71C1DF53E8400145547 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FEBD71A1DF53E8400145547 /* Main.storyboard */; };
+		1FEBD71E1DF53E8400145547 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FEBD71D1DF53E8400145547 /* Assets.xcassets */; };
+		1FEBD7211DF53E8400145547 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FEBD71F1DF53E8400145547 /* LaunchScreen.storyboard */; };
+		1FEBD72E1DF5437500145547 /* UIButton+Delay.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEBD72D1DF5437500145547 /* UIButton+Delay.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1FEBD70E1DF53E8400145547 /* delayButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = delayButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FEBD7121DF53E8400145547 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FEBD7141DF53E8400145547 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1FEBD7151DF53E8400145547 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1FEBD7171DF53E8400145547 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1FEBD7181DF53E8400145547 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1FEBD71B1DF53E8400145547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FEBD71D1DF53E8400145547 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FEBD7201DF53E8400145547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FEBD7221DF53E8400145547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FEBD72C1DF5437500145547 /* UIButton+Delay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Delay.h"; sourceTree = "<group>"; };
+		1FEBD72D1DF5437500145547 /* UIButton+Delay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Delay.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FEBD70B1DF53E8400145547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FEBD7051DF53E8400145547 = {
+			isa = PBXGroup;
+			children = (
+				1FEBD7101DF53E8400145547 /* delayButton */,
+				1FEBD70F1DF53E8400145547 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FEBD70F1DF53E8400145547 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FEBD70E1DF53E8400145547 /* delayButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FEBD7101DF53E8400145547 /* delayButton */ = {
+			isa = PBXGroup;
+			children = (
+				1FEBD7141DF53E8400145547 /* AppDelegate.h */,
+				1FEBD7151DF53E8400145547 /* AppDelegate.m */,
+				1FEBD7171DF53E8400145547 /* ViewController.h */,
+				1FEBD7181DF53E8400145547 /* ViewController.m */,
+				1FEBD71A1DF53E8400145547 /* Main.storyboard */,
+				1FEBD7281DF53EC500145547 /* delayControl */,
+				1FEBD71D1DF53E8400145547 /* Assets.xcassets */,
+				1FEBD71F1DF53E8400145547 /* LaunchScreen.storyboard */,
+				1FEBD7221DF53E8400145547 /* Info.plist */,
+				1FEBD7111DF53E8400145547 /* Supporting Files */,
+			);
+			path = delayButton;
+			sourceTree = "<group>";
+		};
+		1FEBD7111DF53E8400145547 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FEBD7121DF53E8400145547 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FEBD7281DF53EC500145547 /* delayControl */ = {
+			isa = PBXGroup;
+			children = (
+				1FEBD72C1DF5437500145547 /* UIButton+Delay.h */,
+				1FEBD72D1DF5437500145547 /* UIButton+Delay.m */,
+			);
+			name = delayControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FEBD70D1DF53E8400145547 /* delayButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FEBD7251DF53E8400145547 /* Build configuration list for PBXNativeTarget "delayButton" */;
+			buildPhases = (
+				1FEBD70A1DF53E8400145547 /* Sources */,
+				1FEBD70B1DF53E8400145547 /* Frameworks */,
+				1FEBD70C1DF53E8400145547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = delayButton;
+			productName = delayButton;
+			productReference = 1FEBD70E1DF53E8400145547 /* delayButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FEBD7061DF53E8400145547 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "张衡";
+				TargetAttributes = {
+					1FEBD70D1DF53E8400145547 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1FEBD7091DF53E8400145547 /* Build configuration list for PBXProject "delayButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FEBD7051DF53E8400145547;
+			productRefGroup = 1FEBD70F1DF53E8400145547 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FEBD70D1DF53E8400145547 /* delayButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FEBD70C1DF53E8400145547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEBD7211DF53E8400145547 /* LaunchScreen.storyboard in Resources */,
+				1FEBD71E1DF53E8400145547 /* Assets.xcassets in Resources */,
+				1FEBD71C1DF53E8400145547 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FEBD70A1DF53E8400145547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FEBD7191DF53E8400145547 /* ViewController.m in Sources */,
+				1FEBD72E1DF5437500145547 /* UIButton+Delay.m in Sources */,
+				1FEBD7161DF53E8400145547 /* AppDelegate.m in Sources */,
+				1FEBD7131DF53E8400145547 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1FEBD71A1DF53E8400145547 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FEBD71B1DF53E8400145547 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FEBD71F1DF53E8400145547 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FEBD7201DF53E8400145547 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FEBD7231DF53E8400145547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1FEBD7241DF53E8400145547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FEBD7261DF53E8400145547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = delayButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.friend.www.delayButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1FEBD7271DF53E8400145547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = delayButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.friend.www.delayButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FEBD7091DF53E8400145547 /* Build configuration list for PBXProject "delayButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEBD7231DF53E8400145547 /* Debug */,
+				1FEBD7241DF53E8400145547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FEBD7251DF53E8400145547 /* Build configuration list for PBXNativeTarget "delayButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEBD7261DF53E8400145547 /* Debug */,
+				1FEBD7271DF53E8400145547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FEBD7061DF53E8400145547 /* Project object */;
+}

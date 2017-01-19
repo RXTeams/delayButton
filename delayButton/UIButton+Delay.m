@@ -1,11 +1,22 @@
-# runtimeBtn
-最近运用runtime知识写了一个UIButton的分类，实现了按钮每隔2S响应用户点击。效果如下（可以看到每次响应间隔为2s）：
+//
+//  UIButton+Delay.m
+//  delayButton
+//
+//  Created by 张衡 on 2016/12/5.
+//  Copyright © 2016年 张衡. All rights reserved.
+//
 
-![效果](http://upload-images.jianshu.io/upload_images/740137-204ac4641c3cd1ae.gif?imageMogr2/auto-orient/strip)
+#import "UIButton+Delay.h"
+#import <objc/runtime.h>
 
-核心代码如下：
+static const char *intervalKey = "interval";
+static const char *lastIntervalKey = "lastIntervalKey";
 
-```objective-c
+@interface UIButton ()
+@property (nonatomic, assign) NSTimeInterval lastInterval;
+@end
+
+@implementation UIButton (Delay)
 
 - (void)swizzle_sendAction:(SEL)action to:(id)target forEvent:(UIEvent *)event {
     self.interval = self.interval <= 0 ? 2 : self.interval;
@@ -40,16 +51,11 @@ void swizzleMethod(Class class, SEL originalSelector, SEL swizzledSelector) {
 - (NSTimeInterval)interval {
     return [objc_getAssociatedObject(self, intervalKey) doubleValue];
 }
+
 - (void)setLastInterval:(NSTimeInterval)lastInterval {
     objc_setAssociatedObject(self, lastIntervalKey, @(lastInterval), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 - (NSTimeInterval)lastInterval {
     return [objc_getAssociatedObject(self, lastIntervalKey) doubleValue];
 }
-
-```
-
-代码中主要用到了给`分类添加属性`、`method_swizzling`等知识。
-
-博客地址：[runtimeBtn](http://www.jianshu.com/p/cec3918038fb)
-
+@end
